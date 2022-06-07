@@ -1,0 +1,323 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Jenny Burwitz",
+      "email": "jburzy@burzy.gov",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "name": "Tank Dooga",
+      "email": "Tdooga@bottles.doog",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "name": "Barilla Pasta",
+      "email": "barillapasta@bapasti.sauce",
+      "isStaff": false
+    },
+    {
+      "id": 6,
+      "name": "Doug Prishpreed",
+      "email": "dprish@boysdip.net",
+      "isStaff": false
+    },
+    {
+      "name": "Jessie",
+      "email": "jess@jess.jess",
+      "isStaff": true,
+      "id": 10
+    },
+    {
+      "name": "val",
+      "email": "val@val.val",
+      "isStaff": true,
+      "id": 11
+    },
+    {
+      "name": "steve",
+      "email": "steve@steve.steve",
+      "isStaff": true,
+      "id": 14
+    },
+    {
+      "name": "marlon brando",
+      "email": "mbrandy@bran.flakes",
+      "isStaff": true,
+      "id": 17
+    },
+    {
+      "name": "yobble",
+      "email": "yobbby@yob",
+      "isStaff": true,
+      "id": 18
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "userId": 2,
+      "loyaltyNumber": "2000000"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "loyaltyNumber": 11112
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "loyaltyNumber": "66666"
+    },
+    {
+      "id": 4,
+      "userId": 6,
+      "loyaltyNumber": "11117"
+    }
+  ],
+  "employees": [
+    {
+      "userId": 11,
+      "startDate": "7777-07-07",
+      "payRate": 10000000,
+      "locationId": 2,
+      "id": 4
+    },
+    {
+      "userId": 17,
+      "startDate": "8888-08-08",
+      "payRate": 20,
+      "locationId": 1,
+      "id": 7
+    },
+    {
+      "userId": 18,
+      "startDate": "0444-04-04",
+      "payRate": 33,
+      "locationId": 1,
+      "id": 8
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Kandy Kingdom",
+      "address": "203 Kandy Korner",
+      "squareFt": 300
+    },
+    {
+      "id": 2,
+      "name": "Kandy Kouch",
+      "address": "203 Kandy Kouch",
+      "squareFt": 8
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Cinnamon Bun",
+      "price": 5,
+      "productTypeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Starchy",
+      "price": 1,
+      "productTypeId": 2
+    },
+    {
+      "id": 3,
+      "name": "Root Beer Guy",
+      "price": 3,
+      "productTypeId": 3
+    },
+    {
+      "id": 4,
+      "name": "Pep-But",
+      "price": 2,
+      "productTypeId": 2
+    },
+    {
+      "name": "LemonHope",
+      "price": 9000,
+      "productTypeId": 2,
+      "id": 5
+    },
+    {
+      "name": "Lemongrab",
+      "price": 6,
+      "productTypeId": 2,
+      "id": 6
+    },
+    {
+      "name": "Cherry Soda",
+      "price": 20,
+      "productTypeId": 3,
+      "id": 7
+    },
+    {
+      "name": "P-brubz",
+      "price": 100,
+      "productTypeId": 2,
+      "id": 8
+    },
+    {
+      "name": "bun-bun",
+      "price": 1,
+      "productTypeId": 1,
+      "id": 9
+    },
+    {
+      "name": "nuggets",
+      "price": 1,
+      "productTypeId": 1,
+      "id": 10
+    },
+    {
+      "name": "jazz",
+      "price": 400,
+      "productTypeId": 3,
+      "id": 11
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Baked Good"
+    },
+    {
+      "id": 2,
+      "name": "Hard Candy"
+    },
+    {
+      "id": 3,
+      "name": "Drink"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "userId": 2,
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "productId": 4
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "productId": 2
+    },
+    {
+      "id": 4,
+      "userId": 6,
+      "productId": 6
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "productId": 6
+    },
+    {
+      "userId": 2,
+      "productId": 1,
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "productId": 1,
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "productId": 5,
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "productId": 6,
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "productId": 3,
+      "id": 10
+    },
+    {
+      "userId": 6,
+      "productId": 9,
+      "id": 11
+    },
+    {
+      "userId": 6,
+      "productId": 1,
+      "id": 12
+    },
+    {
+      "userId": 6,
+      "productId": 8,
+      "id": 13
+    },
+    {
+      "userId": 6,
+      "productId": 5,
+      "id": 14
+    },
+    {
+      "userId": 6,
+      "productId": 8,
+      "id": 15
+    },
+    {
+      "userId": 6,
+      "productId": 1,
+      "id": 16
+    },
+    {
+      "userId": 4,
+      "productId": 10,
+      "id": 17
+    },
+    {
+      "userId": 2,
+      "productId": 8,
+      "id": 18
+    }
+  ],
+  "locationProducts": [
+    {
+      "id": 1,
+      "productId": 1,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "productId": 2,
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "productId": 3,
+      "locationId": 2
+    },
+    {
+      "id": 6,
+      "productId": 4,
+      "locationId": 2
+    }
+  ]
+}
